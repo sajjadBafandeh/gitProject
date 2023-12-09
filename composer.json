@@ -1,6 +1,11 @@
 {
     "name": "sajjadbafandeh/myproject",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    },
     "authors": [
         {
             "name": "sajjad bafandeh",
