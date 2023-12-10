@@ -3,7 +3,7 @@
 
 class HomeController
 {
-    public function index($name)
+    public function show($name)
     {
         echo $name;
     }
