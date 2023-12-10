@@ -7,4 +7,8 @@ class HomeController
     {
         echo $name;
     }
+
+    public function get(){
+
+    }
 }
